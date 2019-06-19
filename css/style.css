@@ -1,0 +1,278 @@
+/*general*/
+
+html {
+    font-size: 100%;
+}
+header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Lora', serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#first-line {
+    border-color: #4E97FF;
+    margin-top: 40px;
+    border-width: 2px;
+}
+
+#second-line {
+    border-color: #4E97FF;
+    margin-bottom: 40px;
+    border-width: 2px;
+}
+
+
+
+
+
+/*styling main nav*/
+nav > ul {
+    margin-top: 15px;
+    display: flex;
+    
+}
+
+nav > ul li {
+    display: inline;
+}
+
+nav > ul li a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: black;
+}
+
+nav > ul li a:hover {
+    color: #3F384F;
+}
+
+
+
+
+
+
+/*styling dropdown list-item*/
+.dropdown {
+    position: relative;
+}
+
+/*hide the nested list by default*/
+.dropdown > ul {
+    display: none;
+    top: 3rem;
+    left: -1rem;
+}
+
+/*if dropdown list-item is hovered
+display the nested list*/
+.dropdown:hover > ul {
+    display: block;
+}
+
+/*while the dropdown is hovered
+keep the main link highlighted*/
+.dropdown:hover > a {
+    color: #4E97FF;
+}
+
+.dropdown ul a {
+    display: block;
+    padding: 1rem 3rem;
+    color: #4E97FF;
+}
+
+.dropdown ul a:hover {
+    display: block;
+    color: white;
+    background-color: #5786FF;
+}
+
+
+
+
+
+
+
+/*SECONDARY CHANGES*/
+.brand {
+    width: 100%;
+    height: 100px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    width: 6rem; ;
+    height:auto;
+}
+
+main {
+    margin-left: 8%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.75rem;
+}
+
+.intro h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.intro h3{
+    font-size: 0.8rem;
+}
+
+
+figure {
+    float: left;
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-width: thick;
+    border-style: groove;
+    border-color: #AAC7FF;
+}
+
+#thumb {
+    max-width: 15rem;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 2px;;
+}
+
+#type {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#price {
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    display: inline;
+    float: left;
+    align-items: center;
+    font-family: arial;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 60px;
+    
+}
+footer ul {
+    margin-left: 3rem;
+    margin-bottom: 30px;
+}
+footer ul li {
+    display: inline;
+    padding-left: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+    
+}
+
+store {
+    background-color: #D7F2FF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*TABLET VIEW*/
+@media only screen and (min-width: 36rem) {
+    
+    body {
+        max-width: 50rem;
+        margin:auto;
+    }
+    header, footer, main {
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    main {
+        margin-left: 10%;
+    }
+    nav{
+    width: 50rem;
+    }
+    
+    #name {
+        padding-left: 20px;
+    }
+    footer ul li {
+    display: inline;
+    padding-left: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+    
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+/*DESKTOP VIEW*/
+@media only screen and (min-width: 50rem) {
+    body {
+        max-width: 100%;
+    }
+    
+    main {
+        margin-left: 2%;
+    }
+    
+    figure {
+        margin: 2%;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
